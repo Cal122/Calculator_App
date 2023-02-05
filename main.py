@@ -9,7 +9,7 @@ while True:
         else:
             break
     except ValueError:
-        print("Please")
+        print("Please enter a valid number within the given range")
 
 
 while True:
@@ -26,3 +26,13 @@ while True:
         except ValueError:
             print("Please enter a valid number")
 
+print()
+
+if user_choice == 1:
+    print(f.add(value1, value2))
+elif user_choice == 2:
+    print(f.subtract(value1, value2))
+elif user_choice == 3:
+    print(f.multiply(value1, value2))
+elif user_choice == 4:
+    print(f.divide(value1, value2))
